@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <h1>Registro Animali Domestici</h1>
+
+  <form id="pet-form">
+    <label>Nome dell'animale</label>
+    <input type="text" id="petName" required />
+
+    <label>Nome del padrone</label>
+    <input type="text" id="ownerName" required />
+
+    <label>Specie</label>
+    <select id="species" required>
+      <option value="cane">Cane</option>
+      <option value="gatto">Gatto</option>
+      <option value="coniglio">Coniglio</option>
+      <option value="criceto">Criceto</option>
+      <option value="canarino">Canarino</option>
+    </select>
+
+    <label>Razza</label>
+    <input type="text" id="breed" required />
+
+    <button type="submit">Aggiungi animale</button>
+  </form>
+  <body>
+    <script src="./oop.js"></script>
+  </body>
+</html>
